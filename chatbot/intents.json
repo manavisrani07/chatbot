@@ -1,0 +1,127 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello"
+        ],
+        "responses": [
+          "👋 Hey!",
+          "Hello there!",
+          "Hi! How can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "Goodbye! See you later 👋",
+          "Take care! Have a great day! 😊",
+          "Bye bye! Come back soon! 👋"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you"],
+        "responses": ["You're welcome! 😊", "No problem! Happy to help! 👍"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Share a joke",
+          "I want to hear a joke"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything! 😄",
+          "What's a computer's favorite beat? An algo-rhythm! 🎶😂",
+          "Why did the scarecrow win an award? Because he was outstanding in his field! 🌽😄"
+        ]
+      },
+      {
+        "tag": "dad_jokes",
+        "patterns": [
+          "Tell me a dad joke",
+          "Share a dad joke",
+          "I want to hear a dad joke",
+          "i want a dad joke"
+        ],
+        "responses": [
+          "Why did the scarecrow win an award? Because he was outstanding in his field! 😄🌽",
+          "I'm reading a book about anti-gravity. It's impossible to put down! 😂📚",
+          "Why don't eggs tell jokes? Because they might crack up! 😄🥚",
+          "Why don't eggs tell jokes? Because they might crack up! 😄🥚",
+          "I'm reading a book about anti-gravity. It's impossible to put down! 😂📚",
+          "Why don't skeletons fight each other? They don't have the guts! 💀🤣",
+          "What's brown and sticky? A stick! 🌳😄",
+          "Why did the bicycle fall over? Because it was two-tired! 🚲😂",
+          "Why don't scientists trust atoms? Because they make up everything! 😄🔬",
+          "Why did the golfer bring two pairs of pants? In case he got a hole in one! ⛳️😄",
+          "How does a penguin build its house? Igloos it together! 🐧😂",
+          "I asked the librarian if they had any books on paranoia. She whispered, 'They're right behind you!' 😄📚",
+          "I used to play piano by ear, but now I use my hands. 🎹😄",
+          "Why did the scarecrow win an award? Because he was outstanding in his field! 😄🌽",
+          "I was going to tell a joke about time travel, but you guys didn't like it. 😄⏳",
+          "How do you organize an outer space party? You 'planet'! 🌎🚀",
+          "I used to hate facial hair, but then it grew on me. 😄🧔",
+          "Why did the tomato turn red? Because it saw the salad dressing! 🍅😂",
+          "I got a job at a bakery because I kneaded dough. 😄🥖",
+          "Why do bees have sticky hair? Because they use honeycombs! 🐝🍯",
+          "Why did the math book look sad? Because it had too many problems! 📚😄",
+          "Why did the stadium get hot after the game? All of the fans left! 🏟️😂",
+          "What do you call fake spaghetti? An impasta! 🍝😄",
+          "Why don't oysters donate to charity? Because they are shellfish! 🦪😂",
+          "Why did the teddy bear say 'No' to dessert? Because it was stuffed! 🧸😄",
+          "How does a penguin make pancakes? With its flippers! 🐧🥞",
+          "What do you call a snowman with a six-pack? An abdominal snowman! ☃️😄",
+          "What do you call a pile of cats? A meowtain! 🐱😂",
+          "Why did the coffee file a police report? It got mugged! ☕😄",
+          "What did the big flower say to the little flower? 'Hi, bud!' 🌺😂",
+          "What did the grape say when it got stepped on? Nothing, it just let out a little wine. 🍇🍷😄",
+          "What did the left eye say to the right eye? 'Between us, something smells!' 👁️👁️😂",
+          "Why did the tomato turn red?Because it saw the salad dressing! 🍅😄"
+
+        ]
+      },
+      {
+        "tag": "kaisa hai",
+        "patterns": [
+          "kya karha ?",
+          "aur bata",
+          "kiske sath itna busy hai"
+        ],
+        "responses": [
+          "bas badiya",
+          "bas badiya tu bata kaisa chalra?",
+          "mera chodh apna bata kaisa chalra"
+        ]
+      },
+      {
+        "tag": "wyd",
+        "patterns": [
+          "wyd",
+          "what you doing ?",
+          "how's the day",
+          "you doing something?"
+        ],
+        "responses": [
+          "just having a good day, how about you?"
+        ]
+      },
+      {
+        "tag": "ml",
+        "patterns":[
+          "suggest me a video for machine learning ?",
+          "where to learn machine learning?",
+          "where i can learn machine learning?"
+        ],
+        "responses":[
+          "Here are some references to youtube videos you can check: https://www.youtube.com/watch?v=i_LwzRVP7bg for 1 shot and if you want a playlist you can visit: https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        ]
+      }
+
+    ]
+  }
+  
